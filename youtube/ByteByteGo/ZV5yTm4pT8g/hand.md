@@ -71,4 +71,5 @@ pre-magic then presents this
 authorization code is client ID and
 client secret to the authorization
 server
-the client secret is
+the client secret is a private key
+shared only between pre
