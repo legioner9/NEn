@@ -72,4 +72,13 @@ authorization code is client ID and
 client secret to the authorization
 server
 the client secret is a private key
-shared only between pre
+shared only between pre-magic and the
+authorization server
+if the authorization server verifies the
+authorization code client ID and client
+secret IT issues an access token to
+pre-magic
+finally pre-.magic uses this access token
+to request our photos from snapstor's
+resource server
+this oauth2 process ensures that our
